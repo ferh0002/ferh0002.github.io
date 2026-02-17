@@ -20,12 +20,12 @@ footer p{
     color: blue;
 }
 
-#my-image{
+#my-image {
     box-shadow: 0 0 2px 1px  black;
 }
 
 ul.hobbies{
-    list-style-type: circle;
+    list-style-type: square ;
 }
 
 
