@@ -23,13 +23,16 @@ footer p{
     box-shadow: 0px 0px 2px 1px  black;
 }
 
-ul.hobbies{
-    list-style-type: square ;
+.my-hobbies{
+    list-style-type:square  ;
+}
+.my-hobbies li{
+    background-color: pink;
 }
 
 
 nav ul {
-    list-style: none;
+    list-style: square;
     padding: 0;
 }
 nav li{
