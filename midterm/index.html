@@ -3,10 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ferh0002 midterm</title>
+    <title>Initial D - AE86</title>
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
+    <header class="header">
+        
+
+    </header>
     
+  <header class="header">
+        <img src="css/images/ae86.jpg" alt="Toyota AE86 Trueno Initial D" class="header-image">
+        <h1 class="site-title">Initial D: AE86</h1>
+    </header>
+
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#story">STORY</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <article class="article" id="story">
+            <h2>The Legend of Akina</h2>
+            <img src="css/images/ae86-article.jpg" alt="AE86 drifting on Mount Akina" class="article-image">
+            <p>
+                The Akina SpeedStars Ae86, often referred to simply as the "Panda Trueno" isn't just a car; it’s a high-revving ghost that haunts the winding mountain passes of Gunma. Shrouded in the legend of Takumi Fujiwara, this Toyota Sprinter Trueno GT-Apex (AE86) defies the laws of automotive hierarchy, proving that a lightweight chassis and a balanced soul can outrun even the most sophisticated modern supercars. With its iconic black-and-white paint job and the "Fujiwara Tofu Shop" decal emblazoned on the door, it serves as a rolling testament to the art of the drift. Whether it’s screaming through a blind hairpin or executing a gravity-defying gutter run, the 86 represents the perfect harmony between man and machine—a humble delivery vehicle transformed into a "white wing" of pure speed on the downhill.
+
+
+            </p>
+        </article>
+
+        <section class="facts-section">
+            <h2>Facts About the AE86</h2>
+            <ul class="facts-list">
+                <li>The AE86 features the legendary 4A-GE dual overhead cam engine.</li>
+                <li>In Initial D, the car is famous for its "Fujiwara Tofu Shop" decal on the door.</li>
+                <li>Its lightweight chassis and rear-wheel drive make it a masterpiece for mountain drifting (touge).</li>
+                <li>The "86" (Hachi-Roku) has inspired a global resurgence in drifting and automotive tuning.</li>
+            </ul>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <h2>Join the Project D Team</h2>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                </div>
+
+                <fieldset class="radio-group">
+                    <legend>Would you like to race on Mount Akina?</legend>
+                    <div class="radio-options">
+                        <label for="visit-yes">Yes</label>
+                        <input type="radio" id="visit-yes" name="visit" value="yes">
+                        
+                        <label for="visit-no">No</label>
+                        <input type="radio" id="visit-no" name="visit" value="no">
+                        
+                        <label for="visit-maybe">Maybe</label>
+                        <input type="radio" id="visit-maybe" name="visit" value="maybe">
+                    </div>
+                </fieldset>
+
+                <button type="submit" class="submit-btn">SEND</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Initial D Fan Project</p>
+    </footer>
+
 </body>
 </html>
